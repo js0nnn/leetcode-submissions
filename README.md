@@ -26,4 +26,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/js0nnn/leetcode-submissions/tree/master/0128-longest-consecutive-sequence) |
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/js0nnn/leetcode-submissions/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/js0nnn/leetcode-submissions/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
