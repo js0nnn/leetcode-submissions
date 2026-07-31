@@ -11,12 +11,12 @@ class Solution {
 
         while(i <= j) {
 
-            if(!(Character.isLetter(s.charAt(i)) || Character.isDigit(s.charAt(i)))){
+            if(!Character.isLetterOrDigit(s.charAt(i))){
                 i++;
                 continue;
             }
 
-            if(!(Character.isLetter(s.charAt(j)) || Character.isDigit(s.charAt(j)))){
+            if(!Character.isLetterOrDigit(s.charAt(j))){
                 j--;
                 continue;
             }
