@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/js0nnn/leetcode-submissions/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/js0nnn/leetcode-submissions/tree/master/0036-valid-sudoku) |
 | [0128-longest-consecutive-sequence](https://github.com/js0nnn/leetcode-submissions/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/js0nnn/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -57,10 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/js0nnn/leetcode-submissions/tree/master/0015-3sum) |
 | [0853-car-fleet](https://github.com/js0nnn/leetcode-submissions/tree/master/0853-car-fleet) |
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/js0nnn/leetcode-submissions/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/js0nnn/leetcode-submissions/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/js0nnn/leetcode-submissions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## String
