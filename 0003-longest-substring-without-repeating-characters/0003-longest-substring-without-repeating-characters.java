@@ -21,9 +21,6 @@ class Solution {
             // System.out.printf("i=%d, j=%d, max=%d\n", i,j,max);
                 
         }
-
-        // max = Math.max(max, j-i);
-
         return max;
     }
 }
