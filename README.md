@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/js0nnn/leetcode-submissions/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/js0nnn/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/js0nnn/leetcode-submissions/tree/master/0238-product-of-array-except-self) |
+| [0682-baseball-game](https://github.com/js0nnn/leetcode-submissions/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/js0nnn/leetcode-submissions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/js0nnn/leetcode-submissions/tree/master/0853-car-fleet) |
 ## Prefix Sum
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/js0nnn/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/js0nnn/leetcode-submissions/tree/master/0155-min-stack) |
+| [0682-baseball-game](https://github.com/js0nnn/leetcode-submissions/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/js0nnn/leetcode-submissions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/js0nnn/leetcode-submissions/tree/master/0853-car-fleet) |
 ## Design
@@ -61,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/js0nnn/leetcode-submissions/tree/master/0125-valid-palindrome) |
+## Simulation
+|  |
+| ------- |
+| [0682-baseball-game](https://github.com/js0nnn/leetcode-submissions/tree/master/0682-baseball-game) |
 <!---LeetCode Topics End-->
