@@ -5,20 +5,11 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int r = 0; r < nums.length; r++) {
-            if(map.containsKey(nums[r])) {
-                int idx = map.get(nums[r]);
+            if(map.containsKey(nums[r]) && r-map.get(nums[r]) <= k) {
+                return true;
+            } 
 
-                if(r-idx <= k) {
-                    if(idx >= l) {
-                        return true;
-                    }
-                } else {
-                    map.put(nums[r], r);
-                    l++;
-                }
-            } else {
-                map.put(nums[r], r);
-            }
+            map.put(nums[r], r);
         }
 
         return false;
