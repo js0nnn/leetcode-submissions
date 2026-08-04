@@ -8,7 +8,7 @@ class Solution {
             if(map.containsKey(nums[r])) {
                 int idx = map.get(nums[r]);
 
-                if(Math.abs(idx-r) <= k) {
+                if(r-idx <= k) {
                     if(idx >= l) {
                         return true;
                     }
