@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/js0nnn/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/js0nnn/leetcode-submissions/tree/master/0238-product-of-array-except-self) |
 | [0682-baseball-game](https://github.com/js0nnn/leetcode-submissions/tree/master/0682-baseball-game) |
+| [0704-binary-search](https://github.com/js0nnn/leetcode-submissions/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/js0nnn/leetcode-submissions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/js0nnn/leetcode-submissions/tree/master/0853-car-fleet) |
 ## Prefix Sum
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/js0nnn/leetcode-submissions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0704-binary-search](https://github.com/js0nnn/leetcode-submissions/tree/master/0704-binary-search) |
 ## Greedy
 |  |
 | ------- |
