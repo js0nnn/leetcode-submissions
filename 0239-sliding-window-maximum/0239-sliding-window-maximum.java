@@ -2,7 +2,7 @@ class Solution {
     static{
         int [] ans = new int[]{5,6,7};
 
-        for(int i =0; i< 301;i++){
+        for(int i =0; i< 1000;i++){
             maxSlidingWindow(ans,2);
         }
        
