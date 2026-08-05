@@ -1,19 +1,20 @@
-public class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int ROWS = matrix.length, COLS = matrix[0].length;
+class Solution {
+  public boolean searchMatrix(int[][] mat, int targ) {
+    int l = 0;
+    int r = mat.length * mat[0].length - 1;
 
-        int l = 0, r = ROWS * COLS - 1;
-        while (l <= r) {
-            int m = l + (r - l) / 2;
-            int row = m / COLS, col = m % COLS;
-            if (target > matrix[row][col]) {
-                l = m + 1;
-            } else if (target < matrix[row][col]) {
-                r = m - 1;
-            } else {
-                return true;
-            }
-        }
-        return false;
+    while (l <= r) {
+      int mid = l + (r - l) / 2;
+      int row = mid / mat[0].length; // how many rows far
+      int col = mid % mat[0].length; // how far inside the row
+
+      if (targ == mat[row][col])
+        return true;
+      else if (targ > mat[row][col])
+        l = mid + 1;
+      else
+        r = mid - 1;
     }
+    return false;
+  }
 }
