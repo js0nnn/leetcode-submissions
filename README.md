@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/js0nnn/leetcode-submissions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0219-contains-duplicate-ii](https://github.com/js0nnn/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/js0nnn/leetcode-submissions/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/js0nnn/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [0682-baseball-game](https://github.com/js0nnn/leetcode-submissions/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/js0nnn/leetcode-submissions/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/js0nnn/leetcode-submissions/tree/master/0739-daily-temperatures) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/js0nnn/leetcode-submissions/tree/master/0225-implement-stack-using-queues) |
+| [0239-sliding-window-maximum](https://github.com/js0nnn/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 ## Binary Search
 |  |
 | ------- |
@@ -115,6 +117,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/js0nnn/leetcode-submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/js0nnn/leetcode-submissions/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/js0nnn/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/js0nnn/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/js0nnn/leetcode-submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/js0nnn/leetcode-submissions/tree/master/0567-permutation-in-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/js0nnn/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/js0nnn/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/js0nnn/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
