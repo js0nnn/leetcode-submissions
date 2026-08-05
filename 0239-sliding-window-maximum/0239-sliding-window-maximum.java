@@ -1,5 +1,13 @@
 class Solution {
-    public int[] maxSlidingWindow(int[] nums, int k) {
+    static{
+        int [] ans = new int[]{5,6,7};
+
+        for(int i =0; i< 301;i++){
+            maxSlidingWindow(ans,2);
+        }
+       
+    }
+    public static int[] maxSlidingWindow(int[] nums, int k) {
         
         int res[] = new int[nums.length - k + 1]; 
         int ctr = 0;
