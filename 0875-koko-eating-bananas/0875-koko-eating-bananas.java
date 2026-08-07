@@ -1,7 +1,5 @@
 class Solution {
-  int[] piles;
-  int h;
-  public boolean canEat(int speed) {
+  public boolean canEat(int[] piles, int h, int speed) {
     long ctr = 0;
     for(int pile : piles) {
       // long eats = (long)Math.ceil((double)pile/(double)speed);
@@ -14,8 +12,6 @@ class Solution {
   }
 
   public int minEatingSpeed(int[] piles, int h) {
-    this.piles = piles;
-    this.h = h;
     int max = 0;
     for(int pile : piles) {
       max = Math.max(max, pile);
@@ -28,7 +24,7 @@ class Solution {
     while(start <= end) {
       int mid = (start + end) / 2;
 
-      if(canEat(mid)) {
+      if(canEat(piles, h, mid)) {
         min = Math.min(min, mid);
         end = mid - 1;
       } else {
