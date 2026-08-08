@@ -1,41 +1,38 @@
-class Solution {
+public class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int[] A = nums1;
+        int[] B = nums2;
+        int total = A.length + B.length;
+        int half = (total + 1) / 2;
 
-  public void printArr(int arr[] ) {
-    for(int n : arr) {
-      System.out.print(n+" ");
+        if (B.length < A.length) {
+            int[] temp = A;
+            A = B;
+            B = temp;
+        }
+
+        int l = 0;
+        int r = A.length;
+        while (l <= r) {
+            int i = (l + r) / 2;
+            int j = half - i;
+
+            int Aleft = i > 0 ? A[i - 1] : Integer.MIN_VALUE;
+            int Aright = i < A.length ? A[i] : Integer.MAX_VALUE;
+            int Bleft = j > 0 ? B[j - 1] : Integer.MIN_VALUE;
+            int Bright = j < B.length ? B[j] : Integer.MAX_VALUE;
+
+            if (Aleft <= Bright && Bleft <= Aright) {
+                if (total % 2 != 0) {
+                    return Math.max(Aleft, Bleft);
+                }
+                return (Math.max(Aleft, Bleft) + Math.min(Aright, Bright)) / 2.0;
+            } else if (Aleft > Bright) {
+                r = i - 1;
+            } else {
+                l = i + 1;
+            }
+        }
+        return -1;
     }
-    System.out.println();
-  }
-
-  public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-    int i = 0;
-    int j = 0;
-    int t[] = new int[nums1.length + nums2.length];
-    int ctr = 0;
-
-    while (i < nums1.length && j < nums2.length) {
-      if (nums1[i] <= nums2[j]) {
-        t[ctr++] = nums1[i++];
-      } else {
-        t[ctr++] = nums2[j++];
-      }
-    }
-
-    while (i < nums1.length) {
-      t[ctr++] = nums1[i++];
-    }
-
-    while (j < nums2.length) {
-      t[ctr++] = nums2[j++];
-    }
-
-    printArr(t);
-
-    if(ctr % 2 == 0) {
-      return (double)(t[ctr/2] + t[ctr/2 - 1]) / 2.0;
-    } else {
-      return (double)t[ctr/2];
-    }
-
-  }
 }
