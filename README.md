@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/js0nnn/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/js0nnn/leetcode-submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/js0nnn/leetcode-submissions/tree/master/0567-permutation-in-string) |
+| [0981-time-based-key-value-store](https://github.com/js0nnn/leetcode-submissions/tree/master/0981-time-based-key-value-store) |
 ## Matrix
 |  |
 | ------- |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/js0nnn/leetcode-submissions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/js0nnn/leetcode-submissions/tree/master/0225-implement-stack-using-queues) |
+| [0981-time-based-key-value-store](https://github.com/js0nnn/leetcode-submissions/tree/master/0981-time-based-key-value-store) |
 ## Math
 |  |
 | ------- |
@@ -96,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/js0nnn/leetcode-submissions/tree/master/0125-valid-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/js0nnn/leetcode-submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/js0nnn/leetcode-submissions/tree/master/0567-permutation-in-string) |
+| [0981-time-based-key-value-store](https://github.com/js0nnn/leetcode-submissions/tree/master/0981-time-based-key-value-store) |
 ## Simulation
 |  |
 | ------- |
@@ -114,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/js0nnn/leetcode-submissions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0704-binary-search](https://github.com/js0nnn/leetcode-submissions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/js0nnn/leetcode-submissions/tree/master/0875-koko-eating-bananas) |
+| [0981-time-based-key-value-store](https://github.com/js0nnn/leetcode-submissions/tree/master/0981-time-based-key-value-store) |
 ## Greedy
 |  |
 | ------- |
