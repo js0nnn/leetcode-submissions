@@ -35,14 +35,16 @@ class TimeMap {
       int m = l + (r - l) / 2;
       Entry cur_entry = ts_val_pairs.get(m);
       int cur_ts = cur_entry.ts;
-      if(cur_ts <= timestamp) {
-        if(cur_ts > max) {
-          max = cur_ts;
-          res_val = cur_entry.val;
-        }
-      }
+      
+      // if(cur_ts <= timestamp) {
+      //   if(cur_ts > max) {
+      //     max = cur_ts;
+      //     res_val = cur_entry.val;
+      //   }
+      // }
 
-      if(cur_ts < timestamp) {
+      if(cur_ts <= timestamp) {
+        res_val = cur_entry.val;
         l = m + 1;
       } else {
         r = m - 1;
